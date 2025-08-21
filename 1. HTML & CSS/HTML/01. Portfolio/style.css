@@ -1,0 +1,62 @@
+body {
+    /* background-image: url("rangel_petov_home_page.png"); */
+    padding: 20px 20px 20px 20px;
+    max-width: 960px;
+    margin: auto;
+}
+
+img {
+    margin-left: 15px;
+    border-radius: 10px;
+    height: 350px;
+}
+
+nav{
+    /* background-image: url("nav.png"); */
+    border: 10px;
+    border-radius: 5px;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+.photo-nav{
+    width: auto;
+}
+
+footer{
+    background-color: lightgrey;
+    border-radius: 5px;
+
+}
+
+.contact-me{
+    text-align: center;
+    padding: 10px;
+}
+
+.contact-info{
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+
+.contact-info li{
+    padding-bottom: 10px;
+}
+
+.info{
+    background-color: lightgrey;
+    text-align: center;
+}
+
+p{
+    margin: 15px;
+}
+
+.about{
+    text-align: center;
+}
+
+.footer-contact-info{
+    float: right;
+    padding-right: 30px;
+}
