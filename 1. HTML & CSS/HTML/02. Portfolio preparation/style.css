@@ -81,10 +81,10 @@ a:hover{
 
 
 .me {
-  border-radius: 50px;
   width: 350px;
   padding-top: 100px;
   padding-left: 16.665%;
+  border-radius: 50px;
 }
 
 .text{
