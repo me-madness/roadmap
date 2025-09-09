@@ -29,8 +29,12 @@ html {
 
 
 body{
+  
   /* background-color: lightskyblue; */
   /* background-color: cornflowerblue; */
+  /* background-image: url(portfolio_image1.png);
+  background-repeat: no-repeat;
+  background-size: cover; */
   background-color: dodgerblue;
   margin: 0;
   /* max-width: 1440px;
@@ -101,4 +105,7 @@ a:hover{
   color: black;
   padding-top: 20px;
 }
-
+ 
+i{
+  font-size: 70px;
+}
