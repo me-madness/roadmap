@@ -109,3 +109,8 @@ a:hover{
 i{
   font-size: 70px;
 }
+
+i:hover{
+  color: aliceblue;
+  /* cursor: pointer; */
+}
