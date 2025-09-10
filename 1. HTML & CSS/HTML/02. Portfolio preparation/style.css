@@ -80,21 +80,25 @@ a:hover{
 
 .name{
   margin: 0;
-  text-align: center;
+  /* text-align: center; */
+  /* padding-right: 150px; */
 }
 
+.photo{
+  /* width: 350px; */
+  padding-top: 100px;
+  padding-left: 16.665%;
+}
 
 .me {
   width: 350px;
-  padding-top: 100px;
-  padding-left: 16.665%;
   border-radius: 50px;
 }
 
 .text{
   float: right;
   padding-right: 33.33%;
-  padding-top: 265px;
+  /* padding-top: 0px; */
 }
 
 .about-button{
@@ -107,10 +111,41 @@ a:hover{
 }
  
 i{
-  font-size: 70px;
+  font-size: 80px;
 }
 
 i:hover{
   color: aliceblue;
   /* cursor: pointer; */
+}
+.icons{
+  display: flex;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.left-site{
+  flex: 1;
+}
+
+.right-site{
+  /* float: right; */
+  flex: -3;
+}
+
+.middle-site{
+  flex: 8;
+}
+
+.text-about{
+  font-size: 1.5rem;
+}
+
+.text-two{
+  padding-left: 50px;
+}
+
+.text-three{
+  padding-left: 100px;
 }
