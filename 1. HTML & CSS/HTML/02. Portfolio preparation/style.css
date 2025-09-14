@@ -74,11 +74,11 @@ a:hover{
   padding-left: 1%;
 }
 
-.photo img{
+.image-container img{
   transition: transform 0.3s ease-in-out;
 }
 
-.photo:hover img{
+.image-container:hover img{
     transform: scale(1.1); /* Increases size by 10% */
 }
   
@@ -141,3 +141,26 @@ i:hover{
   
 }
 
+.css{
+  padding-left: 60px;
+}
+
+.javascript{
+  padding-left: 60px;
+}
+
+.angular{
+  padding-left: 60px;
+}
+
+.python{
+  padding-left: 60px;
+}
+
+.php{
+  padding-left: 60px;
+}
+
+.mysql{
+  padding-right: -60px;
+}
