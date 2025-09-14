@@ -99,6 +99,7 @@ a:hover{
   padding-right: 11%;
 }
 
+
 .name span{
   color: dodgerblue;
   text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
@@ -189,10 +190,10 @@ i:hover{
   justify-content: center; 
   align-items: center;
   border-radius: 8px;
-  background-color: white;
+  background-color: aliceblue;
 }
 
 .cont-image:hover{
-  transform: scale(1.4); 
   background-color:  dodgerblue;
+  transform: scale(1.4); 
 }
