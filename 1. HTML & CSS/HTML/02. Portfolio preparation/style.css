@@ -141,26 +141,19 @@ i:hover{
   
 }
 
-.css{
+.css, .javascript, .angular, .python, .php, .postgresql, .ionic{
   padding-left: 60px;
 }
 
-.javascript{
+
+.git{
   padding-left: 60px;
 }
 
-.angular{
+.vercel, .mocha{
   padding-left: 60px;
 }
 
-.python{
+.mocha{
   padding-left: 60px;
-}
-
-.php{
-  padding-left: 60px;
-}
-
-.mysql{
-  padding-right: -60px;
 }
