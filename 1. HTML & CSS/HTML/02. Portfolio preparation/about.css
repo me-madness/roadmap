@@ -1,0 +1,63 @@
+html {
+  font-size: 16px;
+}
+
+
+body{
+    /* background-color: dodgerblue; */
+    background-color: aliceblue;
+    margin: 0;
+    /* clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); */
+}
+
+h1{font-size: 2.5rem; }
+h2{font-size: 2rem; }
+h3{font-size: 1.75rem; }
+h4{font-size: 1.5rem; }
+h5{font-size: 1.25rem; }
+h6{font-size: 1rem; }
+
+.nav{
+  background-color: black;
+  margin: 0;
+  height: 80px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  /* justify-content: space-evenly; */
+}
+
+.nav a{
+  /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.home-icon{
+  width: 30px;
+  height: 30px;
+}
+
+
+.cont-image{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  border-radius: 8px;
+  background-color: aliceblue;
+}
+
+.cont-image:hover{
+  background-color:  dodgerblue;
+  transform: scale(1.4); 
+}
+
+.timeline{
+    /* clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); */
+}
