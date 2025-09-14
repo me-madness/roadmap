@@ -29,7 +29,8 @@ html {
 
 
 body{
-  background-color: dodgerblue;
+  /* background-color: dodgerblue; */
+  background-color: aliceblue;
   margin: 0;
 }
 
@@ -55,11 +56,11 @@ h6{font-size: 1rem; }
   text-align: center;
   font-size: 30px;
   text-decoration: none;
-  color: dodgerblue;
+  color: aliceblue;
 }
 
 a:hover{
-  color: aliceblue;
+  color: dodgerblue;
   cursor: pointer;
 }
 
@@ -71,32 +72,33 @@ a:hover{
 
 .photo{
   padding-top: 60px;
-  padding-left: 1%;
+  padding-left: 5%;
 }
 
-.image-container img{
-  transition: transform 0.3s ease-in-out;
-}
-
-.image-container:hover img{
-    transform: scale(1.1); /* Increases size by 10% */
-}
   
 .me {
   width: 500px;
   border-radius: 50px;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
 
   transition: filter 0.3s ease;
+  transition: transform 0.3s ease-in-out;
 }
 
 .me:hover{
-  filter: grayscale(0%);
+  /* filter: grayscale(0%); */
+  transform: scale(1.1); /* Increases size by 10% */
+
 }
 
 .text{
   float: right;
-  padding-right: 15%;
+  padding-right: 11%;
+}
+
+.name span{
+  color: dodgerblue;
+  text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
 }
 
 .about-button{
@@ -112,7 +114,8 @@ i{
 }
 
 i:hover{
-  color: aliceblue;
+  /* color: aliceblue; */
+  color: dodgerblue;
   /* cursor: pointer; */
 }
 .icons{
@@ -137,23 +140,38 @@ i:hover{
 .text-about{
   font-size: 2.0rem;
   padding-top: 200px;
+  padding-bottom: 30px;
   text-align: center;
   
+  position: relative;
+  display: inline-block;
 }
 
-.css, .javascript, .angular, .python, .php, .postgresql, .ionic{
+.text-about::after,
+.text-about::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #ff0000, #00ffff);
+  bottom: -5px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-out;
+}
+
+.text-about::before {
+  top: -5px;
+  transform-origin: left;
+}
+
+.text-about:hover::after,
+.text-about:hover::before {
+  transform: scaleX(1);
+}
+
+.css, .javascript, .angular, .python, .php, .postgresql, .ionic, .git, .vercel, .mocha{
   padding-left: 60px;
 }
 
-
-.git{
-  padding-left: 60px;
-}
-
-.vercel, .mocha{
-  padding-left: 60px;
-}
-
-.mocha{
-  padding-left: 60px;
-}
