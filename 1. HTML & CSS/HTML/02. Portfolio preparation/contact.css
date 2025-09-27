@@ -99,7 +99,7 @@ i:hover{
 }
 
 .middle-site{
-  flex: 8;
+  flex: 11;
 }
 
 .css, .javascript, .angular, .python, .php, .postgresql, .ionic, .git, .vercel, .mocha{
@@ -107,6 +107,7 @@ i:hover{
 }
 
 .contact-form{
+  padding-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -119,7 +120,9 @@ i:hover{
   margin-top: 80px;
   width: 400px;
   height: 600px;
-  background-color: dodgerblue;
+  border-style: solid;
+  border-color: dodgerblue;
+  /* background-color: dodgerblue; */
   border-radius: 8px;
 }
 
