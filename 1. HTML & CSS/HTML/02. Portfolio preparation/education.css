@@ -79,6 +79,8 @@ h1{
   align-items: center;
 }
 
+
+
 .stat-title {
     text-transform: uppercase;
     font-size: 1.4rem;
@@ -230,4 +232,21 @@ h1{
             }
         }
     }
+}
+
+.progress-bar:hover{
+    /* border-style: solid; */
+    /* border-color: var(--color-grey-2); */
+    border-radius: 8px;
+    transform: scale(1.05); 
+}
+
+.skills{
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+.skills span{
+  color: dodgerblue;
+  text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
 }
