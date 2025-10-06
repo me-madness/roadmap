@@ -86,15 +86,17 @@ i:hover{
   padding: 0;
   display: flex;
   padding-left: 20px;
-  padding-top: 20px;
+  padding-top: 0px;
   padding-right: 20px;
 }
 
 .left-site{
+  padding-top: 20px;
   flex: 1;
 }
 
 .right-site{
+  padding-top: 20px;
   flex: -3;
 }
 
@@ -107,7 +109,7 @@ i:hover{
 }
 
 .contact-form{
-  padding-top: 20px;
+  /* padding-top: 20px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -116,14 +118,19 @@ i:hover{
 .contact{
   text-align: center;
   justify-content: center;
-
-  margin-top: 80px;
+  margin-top: -20px;
   width: 400px;
-  height: 600px;
-  border-style: solid;
-  border-color: dodgerblue;
-  /* background-color: dodgerblue; */
-  border-radius: 8px;
+  height: 620px;
+  border: 1px solid var(--color-grey-5);
+  border-radius: 5px;
+  transition: all .4s ease-in-out;
+  box-shadow: 1px 2px 15px rgba(0, 0, 0, .1);
+  &:hover {
+    cursor: default;
+    transform: translateY(-5px);
+    border: 1px solid var(--color-secondary);
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, .32);
+  }
 }
 
 
@@ -132,4 +139,23 @@ i:hover{
   display: flex;
   text-align: center;
   justify-content: center;
+}
+
+/* Title */
+.stat-title {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 3.5rem 0;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 50%;
+        top: 0;
+        width: 40%;
+        height: 1px;
+        background-color: var(--color-grey-5);
+        transform: translateX(-50%);
+    }
 }
