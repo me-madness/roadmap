@@ -1,0 +1,132 @@
+:root {
+    --color-primary: #191d2b;
+    --color-secondary: dodgerblue;
+    --color-white: #FFFFFF;
+    --color-black: #000;
+    --color-grey0: #f8f8f8;
+    --color-grey-1: #dbe1e8;
+    --color-grey-2: #b2becd;
+    --color-grey-3: #6c7983;
+    --color-grey-4: #454e56;
+    --color-grey-5: #2a2e35;
+    --color-grey-6: #12181b;
+    --br-sm-2: 14px;
+    --box-shadow-1: 0 3px 15px rgba(0, 0, 0, .3);
+}
+
+
+html {
+  font-size: 16px;
+}
+
+
+body{
+  /* background-color: dodgerblue; */
+  background-color: aliceblue;
+  margin: 0;
+}
+
+h1{font-size: 2.5rem; }
+h2{font-size: 2rem; }
+h3{font-size: 1.75rem; }
+h4{font-size: 1.5rem; }
+h5{font-size: 1.25rem; }
+h6{font-size: 1rem; }
+
+.nav{
+  background-color: black;
+  margin: 0;
+  height: 80px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  /* justify-content: space-evenly; */
+}
+
+.nav a{
+  /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+a:hover{
+  color: dodgerblue;
+  cursor: pointer;
+}
+
+
+.home-icon{
+  width: 30px;
+  height: 30px;
+}
+
+
+.cont-image{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  border-radius: 8px;
+  background-color: aliceblue;
+}
+
+.cont-image:hover{
+  background-color:  dodgerblue;
+  transform: scale(1.4); 
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 3.5rem;
+    padding-bottom: 5rem;
+    .right-about {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+        .about-item {
+            border: 1px solid var(--color-grey-5);
+            border-radius: 5px;
+            transition: all .4s ease-in-out;
+            box-shadow: 1px 2px 15px rgba(0, 0, 0, .1);
+            &:hover {
+                cursor: default;
+                transform: translateY(-5px);
+                border: 1px solid var(--color-secondary);
+                box-shadow: 1px 2px 15px rgba(0, 0, 0, .32);
+            }
+            .abt-text {
+                padding: 1.5rem;
+                display: flex;
+                flex-direction: column;
+                .large-text {
+                    font-size: 3rem;
+                    font-weight: 700;
+                    color: var(--color-secondary);
+                }
+                .small-text {
+                    padding-left: 3rem;
+                    position: relative;
+                    text-transform: uppercase;
+                    font-size: 1.2rem;
+                    color: var(--color-grey-1);
+                    letter-spacing: 2px;
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        top: 15px;
+                        width: 2rem;
+                        height: 2px;
+                        background-color: var(--color-grey-5);
+                    }
+                }
+            }
+        }
+    }
+}    
