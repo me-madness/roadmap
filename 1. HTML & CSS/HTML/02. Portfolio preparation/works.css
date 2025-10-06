@@ -162,10 +162,12 @@ a:hover{
 
 /* My Projects */
 .blogs {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
-    margin-top: 3rem;
     .blog {
         position: relative;
         background-color: var(--color-grey-1);
@@ -178,7 +180,7 @@ a:hover{
             transition: all .4s ease-in-out;
             img {
                 filter: grayscale(0);
-                transform: scale(1.1);
+                transform: scale(1.06);
                 box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8);
             }
         }
@@ -208,6 +210,27 @@ a:hover{
                 color: var(--color-grey-2);
                 line-height: 2rem;
                 padding-bottom: 1rem;
+            }
+            .info-icons{
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              height: 35px;
+              width: 35px;
+              background-color: var(--color-grey-3);
+              border-radius: 4px;
+              &:hover{
+                transform: scale(1.06);
+                background-color: var(--color-secondary);
+
+              }
+            }
+            .devicon-github-original{
+              font-size: 20px;
+              /* display: flex;
+              align-items:center;
+              justify-content: center; */
+              color: var(--color-grey-1);
             }
         }
     }
