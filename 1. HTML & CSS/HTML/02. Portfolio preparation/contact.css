@@ -139,7 +139,6 @@ i:hover{
   display: flex;
   text-align: center;
   justify-content: center;
-  gap: 50px;
 }
 
 /* Title */
@@ -161,8 +160,8 @@ i:hover{
     }
 }
 
-.contact-icons{
-
+.image-icon{
+  gap: 50px;
 }
 
 .contact-image-icons{
