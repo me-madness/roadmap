@@ -159,3 +159,8 @@ i:hover{
         transform: translateX(-50%);
     }
 }
+
+.linkedin-image{
+  height: 30px;
+  width: 30px;
+}
