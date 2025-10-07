@@ -139,6 +139,7 @@ i:hover{
   display: flex;
   text-align: center;
   justify-content: center;
+  gap: 50px;
 }
 
 /* Title */
@@ -161,7 +162,7 @@ i:hover{
 }
 
 .contact-icons{
-  
+
 }
 
 .contact-image-icons{
