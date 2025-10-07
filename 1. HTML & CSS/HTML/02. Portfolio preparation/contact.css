@@ -109,13 +109,13 @@ i:hover{
 }
 
 .contact-form{
-  /* padding-top: 20px; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .contact{
+  padding-top: 20px;
   text-align: center;
   justify-content: center;
   margin-top: -20px;
@@ -135,7 +135,7 @@ i:hover{
 
 
 .container-contact-icons{
-  padding-top: 60px;
+  padding-top: 100px;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -158,6 +158,10 @@ i:hover{
         background-color: var(--color-grey-5);
         transform: translateX(-50%);
     }
+}
+
+.contact-icons{
+  
 }
 
 .contact-image-icons{
