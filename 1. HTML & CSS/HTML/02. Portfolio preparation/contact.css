@@ -160,11 +160,26 @@ i:hover{
     }
 }
 
-.image-icon{
-  gap: 50px;
+.contact-input{
+  height: 20px;
+  width: 250px;
+  border: 1px solid var(--color-grey-5);
+  border-radius: 4px;
 }
+
+.send-message{
+  padding-top: 50px;
+}
+
+.contact-info{
+}
+
+.image-icon{}
 
 .contact-image-icons{
   height: 30px;
   width: 30px;
+  &:hover{
+    transform: scale(1.4); 
+  }
 }
